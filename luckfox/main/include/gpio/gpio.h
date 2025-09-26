@@ -53,11 +53,11 @@ typedef struct {
     void (*gpio_unexport)(gpio_pin_t pin);
 } gpio_t;
 
-void export(gpio_pin_t pin);
-void mode(gpio_pin_t pin, gpio_mode_t mode);
-void level(gpio_pin_t pin, gpio_level_t level);
-int value(gpio_pin_t pin);
-void unexport(gpio_pin_t pin);
+// void export(gpio_pin_t pin);
+// void mode(gpio_pin_t pin, gpio_mode_t mode);
+// void level(gpio_pin_t pin, gpio_level_t level);
+// int value(gpio_pin_t pin);
+// void unexport(gpio_pin_t pin);
 
 extern gpio_t GPIO;
 
